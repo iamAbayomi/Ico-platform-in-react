@@ -174,7 +174,7 @@ export default function Home() {
             <div>
               <div className="flex items-center gap-[35px]">
                 <div className="w-[20px] h-[20px] rounded-[14.5px] bg-[#174AFF]" />
-                <p>EXX Launched</p>
+                <p>YCS Launched</p>
               </div>
             </div>
           </div>
@@ -217,7 +217,7 @@ export default function Home() {
                   />
                   <div className="max-[680px]:hidden">
                     <div />
-                    <p color="#111315">00.00 EXX</p>
+                    <p color="#111315">00.00 YCS</p>
                   </div>
                 </div>
                 <button
@@ -252,12 +252,12 @@ export default function Home() {
           </div>
         </div>
       </div>
-      <div className="footer m-auto mt-[82px] mb-[30px] flex gap-[40px] max-w-max  font-medium text-[#A0A5BA] left-[35%]">
+      {/* <div className="footer m-auto mt-[82px] mb-[30px] flex gap-[40px] max-w-max  font-medium text-[#A0A5BA] left-[35%]">
         <p>FAQ</p>
         <p>Exx Website</p>
         <p>Terms & Conditions</p>
         <p>Help</p>
-      </div>
+      </div> */}
     </div>
   );
 }
